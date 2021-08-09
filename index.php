@@ -1,6 +1,6 @@
 <?php
     // 读取文件
-    $file = "sentences/sentences/k.json"; // 文件名
+    $file = "hitokoto/sentences/k.json"; // 文件名
     $r_file = fopen($file, "r") or die("Unable to open file!");
     if(filesize($file) > 0) 
         $data = fread($r_file,filesize($file));
